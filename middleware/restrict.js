@@ -3,7 +3,7 @@ const authUsers = require("../authUsers/authUsers-model");
 
 function restrict() {
   const authErr = {
-    message: "Invalid credentials",
+    message: "Invalid Credentials",
   };
 
   return async (req, res, next) => {
